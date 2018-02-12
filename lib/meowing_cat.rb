@@ -1,4 +1,5 @@
-## code your solution here.
+require 'pry'
+
 class Cat
   def intialize
     @name = name
@@ -7,4 +8,5 @@ class Cat
   def meow
     puts "meow!"
   end
+  binding.pry
 end
